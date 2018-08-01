@@ -2,7 +2,7 @@
 
 Small lambda written in Golang and used to get `viewables:read` 2-legged tokens, which in conjunction with AWS API Gateway creates the minimal backend needed for serving to Forge Viewer the access tokens.
 
-#Setup
+### Setup
 1. create a deployment package following the [AWS guide](https://docs.aws.amazon.com/lambda/latest/dg/lambda-go-how-to-create-deployment-package.html) or create a new lambda through AWS portal and upload the zip file (either prepared by you or downloaded from [releases](https://github.com/apprentice3d/aws-lambda-token-fetcher/releases))(A).
 2.  Set the environment variables with your Autodesk Forge credentials (as shown in bellow at B). 
 
